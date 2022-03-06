@@ -543,6 +543,15 @@
   border-radius: 4px;
 }
 
+.hotelimage.hover {
+  -webkit-transition: all 600ms cubic-bezier(.23, 1, .32, 1);
+  transition: all 600ms cubic-bezier(.23, 1, .32, 1);
+}
+
+.hotelimage.hover:hover {
+  margin-top: -5px;
+}
+
 .toplink {
   text-decoration: none;
 }
