@@ -126,6 +126,7 @@
 }
 
 .heading.marginbottom {
+  margin-top: 0px;
   margin-bottom: 30px;
 }
 
@@ -544,6 +545,7 @@
 }
 
 .hotelimage.hover {
+  display: inline-block;
   -webkit-transition: all 600ms cubic-bezier(.23, 1, .32, 1);
   transition: all 600ms cubic-bezier(.23, 1, .32, 1);
 }
@@ -771,6 +773,13 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.hotel__col-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media screen and (min-width: 1440px) {
