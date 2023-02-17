@@ -369,6 +369,7 @@
   top: 1%;
   right: auto;
   bottom: auto;
+  display: none;
   width: 120px;
 }
 
@@ -378,6 +379,7 @@
   top: auto;
   right: -9%;
   bottom: 0%;
+  display: none;
   width: 170px;
 }
 
